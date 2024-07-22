@@ -134,8 +134,6 @@ function playGame(row) {
             alert(" Hòa");
         }
     }
-
-    console.log(newboard);
     turnn();
 }
 
