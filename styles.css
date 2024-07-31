@@ -133,3 +133,25 @@ width: 100%;
   -o-user-select: none;
   user-select: none;
 }
+
+@media(max-width:768px){
+  body{
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .board{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .rows{
+    width: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+  }
+  .row{
+    width: auto;
+    font-size: 2.5em;
+  }
+}
